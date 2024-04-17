@@ -1,0 +1,34 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card {
+    background-color: #2d5349;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px; /* Abstand zwischen den Karten hinzufügen */
+}
+
+.character-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.character-info {
+    padding: 16px;
+}
+
+.character-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.character-species {
+    font-size: 1rem;
+    color: #000000;
+}
